@@ -2703,9 +2703,9 @@ async def cmd_support(message: Message):
     text = "<b>ADMIN</b> - @sldax\n<b>SUPPORT-</b> @VLRNET\n<b>BOT-</b> @vlrvotebot\n\nDm admin for any issues or visit support"
     
     kb = InlineKeyboardBuilder()
-    kb.button(text="Admin", url="https://t.me/valriks")
+    kb.button(text="Admin", url="https://t.me/sldax")
     kb.adjust(1)
-    kb.button(text="Support", url="https://t.me/vthnet")
+    kb.button(text="Support", url="https://t.me/vlrnetwork")
     kb.adjust(1,1)
     await message.answer(text, reply_markup=kb.as_markup())
     
