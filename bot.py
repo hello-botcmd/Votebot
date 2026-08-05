@@ -1713,7 +1713,7 @@ async def send_ga_links(message: Message, user, ga_id):
         f"🔥 Vote for me in the Giveaway!\n\n"
         f"📢 Channel: {ga['target_link']}\n"
         f"🗳 Post Link: {post_link}\n\n"
-        f"⚠️ Note: Don't leave from any channel, @Vthvotebot uses automatic votes resync system!"
+        f"⚠️ Note: Don't leave from any channel, @vlrvotebot uses automatic votes resync system!"
     )
 
     # --- MAIN UI MESSAGE (CAPTION) ---
