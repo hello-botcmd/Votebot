@@ -473,8 +473,8 @@ async def cmd_start(message: Message, command: CommandObject):
                 "<blockquote>• ᴛᴀᴘ ➕ ɴᴇᴡ ɢɪᴠᴇᴀᴡᴀʏ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ɢɪᴠᴇᴀᴡᴀʏ.</blockquote>\n"
                 "<blockquote>• ᴛᴀᴘ 🎁 ᴍʏ ɢɪᴠᴇᴀᴡᴀʏs ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ɢɪᴠᴇᴀᴡᴀʏs.</blockquote>\n"
                 "—————\n"
-                "⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href='https://t.me/vthnet'>ᴠᴛʜ ɴᴇᴛᴡᴏʀᴋ</a>\n"
-                "🛠️ ꜱᴜᴘᴘᴏʀᴛ :- <a href='https://t.me/valriks'>ᴠᴀʟʀɪᴋ</a>"
+                "⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href='https://t.me/vlrnetwork'>ᴠʟʀ ɴᴇᴛᴡᴏʀᴋ</a>\n"
+                "🛠️ ꜱᴜᴘᴘᴏʀᴛ :- <a href='https://t.me/sldax'>ʀᴜʜᴀɴ</a>"
             )
 
         # -----------------------------
