@@ -2700,7 +2700,7 @@ async def process_fsub_input(message: Message, state: FSMContext):
 #---------- SUPPORT 
 @router.message(Command("support"))
 async def cmd_support(message: Message):
-    text = "<b>ADMIN</b> - @valriks\n<b>SUPPORT-</b> @VTHNET\n<b>BOT-</b> @Vthvotebot\n\nDm admin for any issues or visit support"
+    text = "<b>ADMIN</b> - @sldax\n<b>SUPPORT-</b> @VLRNET\n<b>BOT-</b> @vlrvotebot\n\nDm admin for any issues or visit support"
     
     kb = InlineKeyboardBuilder()
     kb.button(text="Admin", url="https://t.me/valriks")
