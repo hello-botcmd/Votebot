@@ -32,13 +32,13 @@ from aiogram.types import InputMediaPhoto
 from typing import Union
 # ---------------- CONFIGURATION ---------------- #
 # ⚠️ CREDENTIALS
-BOT_TOKEN = "8500****2:AAGJ2Q*************G0ukGKUO8" 
-MONGO_URI = "mongodb+srv://6m14.mongod**********ites=true&w=majority&appName=Sony0"
-OWNER_IDS = [8021449673]
+BOT_TOKEN = "8440054063:AAFd3bFruBbKoGOb2Hf63uluEnvnI_UZ23o" 
+MONGO_URI = "mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qxcbk.mongodb.net/?appName=Cluster0"
+OWNER_IDS = [8230040205]
 BOTUSER = "USERBOT"
-ADMIN_IDS = [8021449673]
-LOG_CHANNEL_ID = -1003764795977
-WELCOME_IMAGE = "https://files.catbox.moe/27qumy.jpg"
+ADMIN_IDS = [8580367479]
+LOG_CHANNEL_ID = -1004332212907
+WELCOME_IMAGE = "https://i.ibb.co/Kzqvs15M/477fc36ddaa7.jpg"
 VOTE_IM = "https://files.catbox.moe/mkfcpr.jpg"
 PARTI_IMG = "https://files.catbox.moe/27qumy.jpg" #--participation image 
 # TIMEZONE
