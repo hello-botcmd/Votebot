@@ -1892,16 +1892,15 @@ async def cmd_membership(event: Union[Message, CallbackQuery]):
     
     # 2. Define Default Fallback (If admin hasn't set anything yet)
     default_template = (
-        "💎 <b>PREMIUM MEMBERSHIP</b> 💎\n\n"
-        "<b>Status:</b> {status}\n\n"
-        "❤️‍🔥 <b>Features:</b>\n"
-        "• 🖼 <b>Custom Thumbnail</b> for Giveaways\n"
-        "• ⚡ <b>Access /resync</b> (Fix votes)\n"
-        "• ➕ <b>Extra Force-Join</b> (Per Giveaway)\n"
-        "• 👑 <b>Set Global Force-Join</b> (7D+ Plans)\n\n"
-        "✨ <i>Choose a plan to upgrade:</i>"
-    )
-
+    "💎 <b>PREMIUM MEMBERSHIP</b> 💎\n\n"
+    "<b>Status:</b> {status}\n\n"
+    "🆒 Upgrade to unlock 🔥full control & 🚀maximum reach 💀\n\n"
+    "<blockquote expandable>🖼 <b>Custom Thumbnail</b>\nAdd your own custom thumbnail / vote post image</blockquote>\n"
+    "<blockquote expandable>⚡ <b>Auto Vote Deduction</b>\nAuto vote deduction if a user leaves after voting during giveaways (Free for Sometime)</blockquote>\n"
+    "<blockquote expandable>➕ <b>Extra Force-Join</b>\nAdd 1 extra Force-Join channel/group before voting</blockquote>\n"
+    "<blockquote expandable>👑 <b>Global Force-Join</b>\nSet 1 main Force-Join for all bot users\n\n<i>(Available only with minimum 1-week membership⭐️)</i></blockquote>\n\n"
+    "✨ <i>Choose a plan to upgrade:</i>"
+)
     # 3. Select template
     if ui_settings and ui_settings.get("membership_msg"):
         template = ui_settings['membership_msg']
