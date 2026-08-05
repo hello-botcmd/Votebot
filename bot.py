@@ -483,7 +483,7 @@ async def cmd_start(message: Message, command: CommandObject):
         kb.button(text=f"New Giveaway", callback_data="create_ga", style="primary", icon_custom_emoji_id="5409029744693897259")
         kb.button(text=f"My Giveaways", callback_data="my_ga", style="primary", icon_custom_emoji_id="5204046146955153467")
         kb.adjust(2)
-        kb.button(text="How to Use", url="https://t.me/vthnet/27", style="primary", icon_custom_emoji_id="5269617636001460986")
+        kb.button(text="How to Use", url="https://t.me/vlrnetwork", style="primary", icon_custom_emoji_id="5269617636001460986")
         kb.adjust(1)
         kb.button(text="Add Channel", url=f"https://t.me/{BOTUSER}?startchannel=m&admin=post_messages+invite_users,startgroup=m&invite_users", style="primary", icon_custom_emoji_id="5397916757333654639")
         kb.button(text="Add Group", url=f"https://t.me/{BOTUSER}?startgroup=m&admin=invite_users", style="primary", icon_custom_emoji_id="5397916757333654639")
