@@ -395,7 +395,7 @@ async def end_giveaway_logic(ga_id: str, is_auto: bool = False):
     else:
         # Default Fallback if admin never used /setwin
         template = (
-            f"<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji>!🏆<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji>\n\n"
+            f"<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji> <b>GIVEAWAY HAS ENDED!</b> <tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji>\n\n"
 "<b>Top Participants:</b>\n"
 "{winners}\n\n"
 "<blockquote>Thank you to everyone who participated and made this giveaway a success <tg-emoji emoji-id='6298486951657867390'>✅</tg-emoji>\n"
