@@ -34,9 +34,9 @@ from typing import Union
 # ⚠️ CREDENTIALS
 BOT_TOKEN = "8440054063:AAFd3bFruBbKoGOb2Hf63uluEnvnI_UZ23o" 
 MONGO_URI = "mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qxcbk.mongodb.net/?appName=Cluster0"
-OWNER_IDS = [8230040205]
+OWNER_IDS = [8230040205,8580367479]
 BOTUSER = "USERBOT"
-ADMIN_IDS = [8580367479]
+ADMIN_IDS = [8230040205,8580367479]
 LOG_CHANNEL_ID = -1004332212907
 WELCOME_IMAGE = "https://i.ibb.co/Kzqvs15M/477fc36ddaa7.jpg"
 VOTE_IM = "https://files.catbox.moe/mkfcpr.jpg"
