@@ -395,10 +395,14 @@ async def end_giveaway_logic(ga_id: str, is_auto: bool = False):
     else:
         # Default Fallback if admin never used /setwin
         template = (
-            "🏆 <b>GIVEAWAY ENDED!</b> 🏆\n\n"
-            "<b>🥇 Top 3 Winners:</b>\n"
-            "{winners}\n\n"
-            "<i>Thank you for participating!</i>"
+            f"<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji>!🏆<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji>\n\n"
+"<b>Top Participants:</b>\n"
+"{winners}\n\n"
+"Thank you to everyone who participated and made this giveaway a success <tg-emoji emoji-id='6298486951657867390'>✅</tg-emoji>\n"
+"<tg-emoji emoji-id='6219549292458150316'>✨</tg-emoji>Stay tuned for more exciting giveaways and opportunities....<tg-emoji emoji-id='5039789890133296083'>✨</tg-emoji>\n"
+"<tg-emoji emoji-id='5041975203853239332'>✨</tg-emoji>Winners are requested to DM the admins to claim their rewards.\n"
+"━━━━━━━━━━━━━━━━━━\n"
+"<tg-emoji emoji-id='5085022089103016925'>⚡</tg-emoji> Created by: @Vlrvotebot"
         )
 
     # --- INJECT DATA ---
