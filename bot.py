@@ -1660,7 +1660,14 @@ async def register_participant(message: Message, user, ga):
 
     # Caption Processing
     settings = await settings_col.find_one({"_id": "global_vote_caption"})
-    template = settings.get('text') if settings else "<b>⚡ PARTICIPANT:</b> {user.full_name}\n<b>ID:</b> {user.id}"
+    template = settings.get('text') if settings else (
+    "<blockquote expandable><tg-emoji emoji-id='5208541126583136130'>💠</tg-emoji> <b>PARTICIPANT DETAILS</b></blockquote>\n"
+    "<blockquote expandable>‣ ᴜꜱᴇʀ: {user.full_name}\n"
+    "‣ ᴜꜱᴇʀ-ɪᴅ: {user.id}\n"
+    "‣ ᴜꜱᴇʀɴᴀᴍᴇ: {user.username}</blockquote>\n"
+    "<blockquote expandable><tg-emoji emoji-id='6197330889765033702'>⚠️</tg-emoji> ɴᴏᴛᴇ: ᴏɴʟʏ ᴄʜᴀɴɴᴇʟ ꜱᴜʙꜱᴄʀɪʙᴇʀꜱ ᴄᴀɴ ᴠᴏᴛᴇ</blockquote>\n"
+    "<blockquote expandable><tg-emoji emoji-id='6172370910662628916'>⚡</tg-emoji> @vlrvotebot</blockquote>"
+    )
 
     class FormatUser:
         def __init__(self, u):
