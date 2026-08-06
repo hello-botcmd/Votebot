@@ -1892,15 +1892,18 @@ async def cmd_membership(event: Union[Message, CallbackQuery]):
     
     # 2. Define Default Fallback (If admin hasn't set anything yet)
     default_template = (
-    "💎 <b>PREMIUM MEMBERSHIP</b> 💎\n\n"
-    "<b>Status:</b> {status}\n\n"
-    "🆒 Upgrade to unlock 🔥full control & 🚀maximum reach 💀\n\n"
-    "<blockquote expandable>🖼 <b>Custom Thumbnail</b>\nAdd your own custom thumbnail / vote post image</blockquote>\n"
-    "<blockquote expandable>⚡ <b>Auto Vote Deduction</b>\nAuto vote deduction if a user leaves after voting during giveaways (Free for Sometime)</blockquote>\n"
-    "<blockquote expandable>➕ <b>Extra Force-Join</b>\nAdd 1 extra Force-Join channel/group before voting</blockquote>\n"
-    "<blockquote expandable>👑 <b>Global Force-Join</b>\nSet 1 main Force-Join for all bot users\n\n<i>(Available only with minimum 1-week membership⭐️)</i></blockquote>\n\n"
-    "✨ <i>Choose a plan to upgrade:</i>"
-)
+    "<tg-emoji emoji-id='6298514001361897127'>⭐️</tg-emoji> <b>MEMBERSHIP</b>- <tg-emoji emoji-id='5041994565565809886'>❌</tg-emoji> {status}\n\n"
+    "<tg-emoji emoji-id='5039560388555834382'>❤️‍🔥</tg-emoji> <b>PREMIUM FEATURES</b><tg-emoji emoji-id='6325310787652946500'>💙</tg-emoji>\n"
+    "<tg-emoji emoji-id='6323191058083613275'>😵</tg-emoji><tg-emoji emoji-id='6323564170482551899'>🤔</tg-emoji><tg-emoji emoji-id='6325480992911919689'>🙁</tg-emoji><tg-emoji emoji-id='6323518746908428943'>😝</tg-emoji><tg-emoji emoji-id='6323205570778107774'>😤</tg-emoji><tg-emoji emoji-id='6325684673145997914'>☹️</tg-emoji><tg-emoji emoji-id='6323136954380585694'>🙁</tg-emoji><tg-emoji emoji-id='5280904324724063665'>☹️</tg-emoji>\n\n"
+    "<blockquote expandable>°<tg-emoji emoji-id='5280678521113443426'>😽</tg-emoji> Add your own custom thumbnail / vote post image</blockquote>\n"
+    "<blockquote expandable>•<tg-emoji emoji-id='6219810752887262728'>😽</tg-emoji> Auto vote deduction if a user leaves after voting during giveaways <tg-emoji emoji-id='5280721097124249567'>🐹</tg-emoji>(Free for Sometime)</blockquote>\n"
+    "<blockquote expandable>•<tg-emoji emoji-id='6219882697884436514'>😽</tg-emoji> Add 1 extra Force-Join channel/group before voting <tg-emoji emoji-id='5318828550940293906'>🐋</tg-emoji></blockquote>\n"
+    "<blockquote expandable>•<tg-emoji emoji-id='6296367896398399651'>🐱</tg-emoji> Set 1 main Force-Join for all bot users</blockquote>\n\n"
+    "<tg-emoji emoji-id='6298486951657867390'>✅</tg-emoji> (Available only with minimum 1-week membership⭐️)\n"
+    "<tg-emoji emoji-id='6325310787652946500'>😵</tg-emoji><tg-emoji emoji-id='6323191058083613275'>🤔</tg-emoji><tg-emoji emoji-id='6323564170482551899'>🙁</tg-emoji><tg-emoji emoji-id='6325480992911919689'>😝</tg-emoji><tg-emoji emoji-id='6323518746908428943'>😤</tg-emoji><tg-emoji emoji-id='6323205570778107774'>☹️</tg-emoji><tg-emoji emoji-id='6325684673145997914'>🙁</tg-emoji><tg-emoji emoji-id='6323136954380585694'>☹️</tg-emoji>\n\n"
+    "<tg-emoji emoji-id='5039686583284925280'>🆒</tg-emoji>Upgrade to unlock <tg-emoji emoji-id='6111778259374971023'>🔥</tg-emoji>full control & <tg-emoji emoji-id='6113661069958323609'>🚀</tg-emoji>maximum reach <tg-emoji emoji-id='5042209657527993345'>💀</tg-emoji>"
+    )
+
     # 3. Select template
     if ui_settings and ui_settings.get("membership_msg"):
         template = ui_settings['membership_msg']
