@@ -465,16 +465,16 @@ async def cmd_start(message: Message, command: CommandObject):
             caption_text = custom_data['text']
         else:
             caption_text = (
-                f"🤖 <b>ᴡᴇʟᴄᴏᴍᴇ {user.first_name}!</b> 🎁\n"
-                "<blockquote expandable>✨ ꜰᴜʟʟʏ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ & ꜰᴀɪʀ ɢɪᴠᴇᴀᴡᴀʏ ꜱʏꜱᴛᴇᴍ\n"
-                "⚡ ꜰᴀꜱᴛ & ᴛʀᴀɴꜱᴘᴀʀᴇɴᴛ ᴡɪɴɴᴇʀ ꜱᴇʟᴇᴄᴛɪᴏɴ\n"
-                "🛡️ ꜱᴇᴄᴜʀᴇ, ʀᴇʟɪᴀʙʟᴇ & ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ\n"
-                "🎉 ʜᴏꜱᴛ ɢɪᴠᴇᴀᴡᴀʏꜱ ᴡɪᴛʜ ᴀ ᴘʀᴇᴍɪᴜᴍ ᴇxᴘᴇʀɪᴇɴᴄᴇ</blockquote>\n"
-                "<blockquote>• ᴛᴀᴘ ➕ ɴᴇᴡ ɢɪᴠᴇᴀᴡᴀʏ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ɢɪᴠᴇᴀᴡᴀʏ.</blockquote>\n"
-                "<blockquote>• ᴛᴀᴘ 🎁 ᴍʏ ɢɪᴠᴇᴀᴡᴀʏs ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ɢɪᴠᴇᴀᴡᴀʏs.</blockquote>\n"
-                "—————\n"
-                "⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href='https://t.me/vlrnetwork'>ᴠʟʀ ɴᴇᴛᴡᴏʀᴋ</a>\n"
-                "🛠️ ꜱᴜᴘᴘᴏʀᴛ :- <a href='https://t.me/sldax'>ʀᴜʜᴀɴ</a>"
+                f"<tg-emoji emoji-id='5314391089514291948'>🤖</tg-emoji> <tg-emoji emoji-id='5961009436813167995'>✨</tg-emoji><tg-emoji emoji-id='5961069987262106861'>✨</tg-emoji><tg-emoji emoji-id='5958608215087256351'>✨</tg-emoji><b>ᴡᴇʟᴄᴏᴍᴇ {user.first_name}!</b> <tg-emoji emoji-id='5190745930319554349'>🎁</tg-emoji>\n"
+"<blockquote expandable><tg-emoji emoji-id='5940385029627582223'>✨</tg-emoji> ꜰᴜʟʟʏ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ & ꜰᴀɪʀ ɢɪᴠᴇᴀᴡᴀʏ ꜱʏꜱᴛᴇᴍ<tg-emoji emoji-id='6219532735359223977'>✅</tg-emoji>\n"
+"<tg-emoji emoji-id='5085022089103016925'>⚡</tg-emoji> ꜰᴀꜱᴛ & ᴛʀᴀɴꜱᴘᴀʀᴇɴᴛ ᴡɪɴɴᴇʀ ꜱᴇʟᴇᴄᴛɪᴏɴ<tg-emoji emoji-id='6219532735359223977'>✅</tg-emoji>\n"
+"<tg-emoji emoji-id='5197288647275071607'>🛡️</tg-emoji> ꜱᴇᴄᴜʀᴇ, ʀᴇʟɪᴀʙʟᴇ & ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ<tg-emoji emoji-id='6219532735359223977'>✅</tg-emoji>\n"
+"<tg-emoji emoji-id='6325536977810622746'>🎉</tg-emoji> ʜᴏꜱᴛ ɢɪᴠᴇᴀᴡᴀʏꜱ ᴡɪᴛʜ ᴀ ᴘʀᴇᴍɪᴜᴍ ᴇxᴘᴇʀɪᴇɴᴄᴇ<tg-emoji emoji-id='6219532735359223977'>✅</tg-emoji></blockquote>\n"
+"<blockquote>• <tg-emoji emoji-id='5039891861246838069'>➕</tg-emoji> ᴛᴀᴘ ɴᴇᴡ ɢɪᴠᴇᴀᴡᴀʏ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ɢɪᴠᴇᴀᴡᴀʏ.<tg-emoji emoji-id='5940352138768029660'>✨</tg-emoji></blockquote>\n"
+"<blockquote>• <tg-emoji emoji-id='5190745930319554349'>🎁</tg-emoji> ᴛᴀᴘ ᴍʏ ɢɪᴠᴇᴀᴡᴀʏs ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ɢɪᴠᴇᴀᴡᴀʏs.<tg-emoji emoji-id='5922380251844843912'>✨</tg-emoji></blockquote>\n"
+"<tg-emoji emoji-id='5332423642850536254'>➖</tg-emoji>—————<tg-emoji emoji-id='5961009436813167995'>✨</tg-emoji><tg-emoji emoji-id='5961069987262106861'>✨</tg-emoji><tg-emoji emoji-id='5958608215087256351'>✨</tg-emoji>—————<tg-emoji emoji-id='5332423642850536254'>➖</tg-emoji>\n"
+"<tg-emoji emoji-id='5085022089103016925'>⚡</tg-emoji> ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href='https://t.me/vlrnetwork'>ᴠʟʀ ɴᴇᴛᴡᴏʀᴋ</a><tg-emoji emoji-id='6104631352190043951'>✨</tg-emoji>\n"
+"<tg-emoji emoji-id='6298356878573307709'>🛠️</tg-emoji> ꜱᴜᴘᴘᴏʀᴛ :- <a href='https://t.me/sldax'>ʀᴜʜᴀɴ</a><tg-emoji emoji-id='6104631352190043951'>✨</tg-emoji>"
             )
 
         # -----------------------------
